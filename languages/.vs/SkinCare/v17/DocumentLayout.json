@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TaskMVC\\languages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\product\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\product\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|e:\\taskmvc\\languages\\languages\\models\\skincareproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFA1AE4-6915-41B2-B908-14C6AE033095}|languages\\SkinCare.csproj|solutionrelative:languages\\models\\skincareproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 332,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "languages\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T01:21:33.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "languages\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T01:13:20.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "languages\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T20:55:39.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\New.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Product\\New.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\New.cshtml",
+              "RelativeToolTip": "languages\\Views\\Product\\New.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T00:35:33.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "languages\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAIBJwB8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T00:35:20.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "languages\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T00:32:24.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Home\\Details.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "languages\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T00:32:07.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "languages\\Models\\Entities.cs",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Models\\Entities.cs",
+              "RelativeToolTip": "languages\\Models\\Entities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:20:04.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SkinCareProduct.cs",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Models\\SkinCareProduct.cs",
+              "RelativeDocumentMoniker": "languages\\Models\\SkinCareProduct.cs",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Models\\SkinCareProduct.cs",
+              "RelativeToolTip": "languages\\Models\\SkinCareProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:18:39.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "languages\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "languages\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:47:05.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\TaskMVC\\languages\\languages\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "languages\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\TaskMVC\\languages\\languages\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "languages\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T01:22:12.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

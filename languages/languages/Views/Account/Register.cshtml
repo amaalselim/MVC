@@ -1,0 +1,94 @@
+﻿@model languages.ViewModel.registervm
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<section class="text-center text-lg-start" style="background-color: #f8f9fa;">
+    <style>
+        .cascading-right {
+            margin-right: -50px;
+        }
+        /* Custom styles for cute inputs */
+        .form-outline {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+            .form-outline input {
+                font-size: 1rem;
+                padding: 0.8rem;
+                border: none;
+                border-bottom: 2px solid #ced4da;
+                border-radius: 0;
+                background-color: transparent;
+                width: 100%;
+            }
+
+            .form-outline label {
+                position: absolute;
+                top: 0.8rem;
+                left: 0.8rem;
+                font-size: 1rem;
+                color: #495057;
+                transition: all 0.3s ease;
+            }
+
+            .form-outline input:focus ~ label,
+            .form-outline input:not(:placeholder-shown) ~ label {
+                top: -1.2rem;
+                left: 0;
+                font-size: 0.8rem;
+                color: #6c757d;
+            }
+
+            .form-outline .text-danger {
+                position: absolute;
+                bottom: -1.2rem;
+                left: 0.8rem;
+                font-size: 0.8rem;
+                color: #dc3545;
+            }
+        /* End of custom styles */
+    </style>
+    <div class="container py-4 rounded-3">
+        <div class="row g-0 align-items-center justify-content-center">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div class="d-flex justify-content-center">
+                    <div class="card cascading-right" style="width: 80%;">
+                        <div class="card-body p-5 shadow-5 text-center" style="background-color: #fff;">
+                            <h2 class="fw-bold mb-5" style="color: #007bff;">Sign in now</h2>
+                            <form asp-action="Register" method="post">
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label for="name">Name</label>
+                                    <input asp-for="Name" type="text" id="name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div><br />
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label for="email">Email</label>
+                                    <input asp-for="Email" type="email" id="email" class="form-control" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div><br />
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label for="password">Password</label>
+                                    <input asp-for="Password" type="password" id="password" class="form-control" />
+                                    
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div><br />
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input asp-for="confirmPassword" type="password" id="confirmPassword" class="form-control" />
+                                    
+                                    <span asp-validation-for="confirmPassword" class="text-danger"></span>
+                                </div><br />
+                                <button type="submit" value="register" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4 rounded-pill">
+                                    Sign in
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .card {
+        margin-bottom: 30px; /* Space between each card */
+        border-radius: 10px; /* Curved borders for cards */
+        overflow: hidden; /* Ensure that images respect curved borders */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a slight shadow for depth */
+        width: 300px; /* Fixed width for cards */
+        height: 400px; /* Fixed height for cards */
+        float: left; /* Float cards left for equal spacing */
+        margin-right: 60px; /* Right margin for spacing */
+        position: relative; /* Position relative for absolute positioning of text and button */
+    }
+
+        .card img {
+            width: 100%; /* Make images fill the card */
+            height: 60%; /* Set image height to 60% of card height */
+            object-fit: cover; /* Ensure images cover the entire space */
+        }
+
+    .card-body {
+        position: absolute; /* Position absolute for text and button */
+        bottom: 0; /* Align at the bottom of the card */
+        left: 0; /* Align at the left of the card */
+        width: 100%; /* Full width */
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+        padding: 10px; /* Padding for text */
+        box-sizing: border-box; /* Include padding in the width */
+        text-align: center; /* Center align text */
+    }
+
+        .card-body h5 {
+            margin-bottom: 10px; /* Margin below the title */
+            color: #fff; /* Text color */
+        }
+
+        .card-body .btn-custom {
+            display: inline-block; /* Display button as inline-block */
+            padding: 10px 20px; /* Padding for button */
+            font-size: 1rem; /* Font size for button */
+            border-radius: 20px; /* Curved borders for button */
+            background-color: transparent; /* Transparent background */
+            border: 2px solid #fff; /* White border */
+            color: #fff; /* Text color */
+            text-decoration: none; /* Remove underline */
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+            .card-body .btn-custom:hover {
+                background-color: #fff; /* White background on hover */
+                color: #000; /* Black text color on hover */
+            }
+</style>
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="text-center">
+        <h1 class="display-4">ZYNAH</h1>
+    </div>
+    <br />
+    <div class="product-section clearfix">
+        <!-- Apply clearfix to ensure proper layout -->
+        <div class="container">
+            @foreach (var item in Model)
+            {
+                <div class="card">
+                    <img src="~/img/@item.Image" class="card-img-top" alt="poster">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <a href="@Url.Action("Details", "Home", new { id = item.Id })" class="btn btn-primary btn-custom">Details</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">ZYNAH</h1>
+    </div>
+    <br />
+    <div class="product-section clearfix">
+        <!-- Apply clearfix to ensure proper layout -->
+        <div class="container">
+            @foreach (var item in Model)
+            {
+                <div class="card mb-4" style="height: 400px;">
+                    <img src="~/img/@item.Image" class="card-img-top" alt="poster">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3">@item.Name</h5>
+                        <div class="mb-3"></div> <!-- Add space between image and name -->
+                        <p class="card-text text-white">@item.Description</p>
+                        <div class="d-flex justify-content-between">
+                            <a class="btn btn-secondary btn-custom" href="@Url.Action("Edit", "Product", new { id = item.Id })">Edit</a>
+                            <a class="btn btn-secondary btn-custom" href="@Url.Action("Delete", "Product", new { id = item.Id })">Delete</a>
+                            <a class="btn btn-secondary btn-custom" href="@Url.Action("Details", "Home", new { id = item.Id })">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}
+</div>

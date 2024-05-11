@@ -1,0 +1,25 @@
+﻿@model languages.Models.SkinCareProduct
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="text-center">
+    <h1 class="display-4">ZYNAH</h1>
+</div>
+<br />
+
+<div class="container">
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">ID: @Model.Id</h4>
+            <h4 class="card-title">Name: @Model.Name</h4>
+            <h4 class="card-title">Image:@Model.Image</h4>
+            <h4 class="card-title">Description: @Model.Description</h4>
+        </div>
+    </div>
+
+    <form asp-action="ConfirmDelete" asp-route-id="@Model.Id" method="post" class="mt-3">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

@@ -1,0 +1,36 @@
+﻿@model languages.Models.SkinCareProduct
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="text-center">
+    <h1 class="display-4">ZYNAH</h1>
+</div>
+
+<div class="container">
+
+    <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+        <div class="mb-3">
+            <label for="Name" class="form-label">Name:</label>
+            <input type="text" asp-for="Name" class="form-control" id="Name" />
+        </div>
+        <div class="mb-3">
+            <label for="Image" class="form-label">Image:</label>
+            <input type="file" asp-for="Image" class="form-control" id="Image" />
+        </div>
+        <div class="mb-3">
+            <label for="Image" class="form-label">Description:</label>
+            <input type="text" asp-for="Description" class="form-control" id="Description" />
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+</div>
+@* <div>
+    <a asp-action="Index" asp-controller="Home">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
